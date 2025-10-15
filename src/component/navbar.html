@@ -1,0 +1,123 @@
+<!-- navbar.html -->
+<nav class="nav" role="navigation" aria-label="Primary">
+  <div class="brand">
+    <img src="assets/images/iris.svg" style="height: 30px;" alt="Iris Icon">
+  </div>
+
+  <ul>
+            <li>
+              <a
+                id="landing"
+                class="montserrat-medium"
+                href="/"
+                aria-current="page"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                id="about"
+                class="montserrat-medium"
+                href="#about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                id="testimoni"
+                class="montserrat-medium"
+                href="#testimoni"
+              >
+                Testimoni
+              </a>
+            </li>
+            <li>
+              <a
+                id="contact"
+                class="montserrat-medium"
+                href="https://api.whatsapp.com/send/?phone=6285802738395&text&type=phone_number&app_absent=0"
+              >
+                Contact
+              </a>
+            </li>
+        </ul>
+
+  <div class="menu" role="menubar" aria-label="Main menu">
+        <button
+            class="btn-accent-fillable"
+            type="button"
+            style="padding-inline: 20px;"
+            onclick="window.location.href='#auth/register'"
+            >
+            Daftar
+        </button>
+        
+        <button
+            class="btn-accent"
+            style="padding-inline: 20px;"
+            type="button"
+            onclick="window.location.href='#auth/login'"
+            >
+            Masuk
+        </button>
+  </div>
+
+  <button class="hamburger" aria-expanded="false" aria-controls="mobile-panel" aria-label="Toggle menu">
+    <span class="bar" aria-hidden="true"></span>
+  </button>
+
+  <div class="mobile-panel" id="mobile-panel" role="menu" aria-hidden="true">
+    <a
+                id="landing"
+                class="montserrat-medium"
+                href="/"
+                aria-current="page"
+              >
+                Home
+              </a>
+              <a
+                id="about"
+                class="montserrat-medium"
+                href="#about"
+              >
+                About
+              </a>
+
+              <a
+                id="testimoni"
+                class="montserrat-medium"
+                href="#testimoni"
+              >
+                Testimoni
+              </a>
+
+              <a
+                id="contact"
+                class="montserrat-medium"
+                href="#"
+              >
+                Contact
+              </a>
+    <button
+            class="btn-accent-fillable"
+            type="button"
+            style="padding-inline: 20px;"
+            onclick="window.location.href='#auth/register'"
+            >
+            Daftar
+        </button>
+        
+        <button
+            class="btn-accent"
+            style="padding-inline: 20px;"
+            type="button"
+            onclick="window.location.href='#auth/login'"
+            >
+            Masuk
+        </button>
+  </div>
+</nav>
+
+<script src="src/js/controller/nav_controller.js"></script>

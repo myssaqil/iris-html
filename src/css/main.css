@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+      --bg:#020202;
+      --accent:#e31b75;
+      --text:#ffffff;
+      --nav-height:74px;
+    }
+
+
+
+@font-face {
+    font-family: 'mentua_black';
+    src: url('font/mentua.black.otf') format('opentype');
+}
+
+.montserrat-medium {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Medium */
+    font-style: normal;
+    line-height: 25px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.btn-accent-fillable{
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-accent-fillable:hover{
+    background-color: color-mix(in srgb, var(--accent) 80%, black 20%);
+}
+.btn-accent{
+    background-color: white;
+    color: var(--accent);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-accent:hover{
+    background-color: rgb(161, 159, 159);
+}
